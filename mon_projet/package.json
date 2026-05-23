@@ -1,0 +1,26 @@
+{
+  "name": "mon_projet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MsB-31/Mbaiammadji-Sylvestre-Banyo-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/MsB-31/Mbaiammadji-Sylvestre-Banyo-portfolio/issues"
+  },
+  "homepage": "https://github.com/MsB-31/Mbaiammadji-Sylvestre-Banyo-portfolio#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "node-fetch": "^3.3.2",
+    "undici": "^7.16.0"
+  }
+}

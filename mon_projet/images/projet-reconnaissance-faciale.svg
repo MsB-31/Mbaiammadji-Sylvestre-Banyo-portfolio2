@@ -1,0 +1,139 @@
+<svg width="100%" viewBox="0 0 680 420" role="img" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', Arial, sans-serif">
+  <title>Système de pointage par reconnaissance faciale — Python OpenCV</title>
+  <rect width="680" height="420" fill="#0d1117" rx="10"/>
+
+  <!-- Header -->
+  <rect x="0" y="0" width="680" height="44" fill="#161b22" rx="10"/>
+  <rect x="0" y="22" width="680" height="22" fill="#161b22"/>
+  <circle cx="26" cy="22" r="9" fill="#238636"/>
+  <text x="26" y="27" text-anchor="middle" fill="white" font-size="9" font-weight="700">FR</text>
+  <text x="46" y="28" fill="white" font-size="13" font-weight="600">FaceAttend — Système de pointage facial</text>
+  <rect x="570" y="8" width="96" height="26" rx="5" fill="#238636"/>
+  <text x="618" y="25" text-anchor="middle" fill="white" font-size="11" font-weight="600">● Caméra active</text>
+
+  <!-- Flux caméra (gauche) -->
+  <rect x="20" y="58" width="280" height="230" rx="8" fill="#010409" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Visage stylisé dans le flux -->
+  <!-- Fond flux -->
+  <rect x="20" y="58" width="280" height="230" rx="8" fill="#0d1521"/>
+
+  <!-- Silhouette corps -->
+  <ellipse cx="160" cy="230" rx="55" ry="30" fill="#1a2332"/>
+  <rect x="115" y="200" width="90" height="40" rx="5" fill="#1a2332"/>
+
+  <!-- Tête -->
+  <ellipse cx="160" cy="165" rx="48" ry="55" fill="#2a3548"/>
+
+  <!-- Boîte de détection faciale verte animée -->
+  <rect x="104" y="108" width="112" height="118" rx="4" fill="none" stroke="#3fb950" stroke-width="2"/>
+  <!-- Coins de la boîte -->
+  <path d="M104 128 L104 108 L124 108" fill="none" stroke="#3fb950" stroke-width="3" stroke-linecap="round"/>
+  <path d="M196 108 L216 108 L216 128" fill="none" stroke="#3fb950" stroke-width="3" stroke-linecap="round"/>
+  <path d="M104 206 L104 226 L124 226" fill="none" stroke="#3fb950" stroke-width="3" stroke-linecap="round"/>
+  <path d="M196 226 L216 226 L216 206" fill="none" stroke="#3fb950" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Points de repère faciaux -->
+  <circle cx="140" cy="148" r="3" fill="#58a6ff" opacity="0.9"/>
+  <circle cx="180" cy="148" r="3" fill="#58a6ff" opacity="0.9"/>
+  <circle cx="160" cy="163" r="2" fill="#58a6ff" opacity="0.7"/>
+  <circle cx="148" cy="176" r="2" fill="#58a6ff" opacity="0.7"/>
+  <circle cx="172" cy="176" r="2" fill="#58a6ff" opacity="0.7"/>
+  <circle cx="130" cy="148" r="2" fill="#58a6ff" opacity="0.5"/>
+  <circle cx="190" cy="148" r="2" fill="#58a6ff" opacity="0.5"/>
+
+  <!-- Yeux -->
+  <ellipse cx="140" cy="150" rx="10" ry="7" fill="#3a4a60"/>
+  <circle cx="140" cy="150" r="4" fill="#1a2a3a"/>
+  <ellipse cx="180" cy="150" rx="10" ry="7" fill="#3a4a60"/>
+  <circle cx="180" cy="150" r="4" fill="#1a2a3a"/>
+
+  <!-- Nez -->
+  <path d="M157 158 Q160 168 163 158" fill="none" stroke="#58a6ff" stroke-width="1" opacity="0.6"/>
+
+  <!-- Bouche -->
+  <path d="M148 176 Q160 184 172 176" fill="none" stroke="#58a6ff" stroke-width="1.5" opacity="0.7"/>
+
+  <!-- Label identité -->
+  <rect x="94" y="228" width="132" height="22" rx="4" fill="#238636" opacity="0.9"/>
+  <text x="160" y="242" text-anchor="middle" fill="white" font-size="11" font-weight="700">✓ Sylvestre B.</text>
+
+  <!-- Scan line animée -->
+  <line x1="20" y1="170" x2="300" y2="170" stroke="#3fb950" stroke-width="1" opacity="0.3" stroke-dasharray="8,4"/>
+
+  <!-- Confidence score -->
+  <text x="30" y="305" fill="#8b949e" font-size="10">Confiance :</text>
+  <rect x="30" y="310" width="200" height="8" rx="4" fill="#21262d"/>
+  <rect x="30" y="310" width="185" height="8" rx="4" fill="#238636"/>
+  <text x="240" y="319" fill="#3fb950" font-size="10" font-weight="700">92.4%</text>
+
+  <!-- Panel droite -->
+  <rect x="318" y="58" width="342" height="230" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="334" y="82" fill="white" font-size="12" font-weight="600">Registre de présence — Aujourd'hui</text>
+  <line x1="334" y1="90" x2="644" y2="90" stroke="#30363d" stroke-width="0.5"/>
+
+  <!-- Entêtes tableau -->
+  <text x="334" y="108" fill="#8b949e" font-size="10" font-weight="600">Nom</text>
+  <text x="484" y="108" fill="#8b949e" font-size="10" font-weight="600">Heure</text>
+  <text x="584" y="108" fill="#8b949e" font-size="10" font-weight="600">Statut</text>
+
+  <!-- Ligne 1 -->
+  <rect x="322" y="114" width="330" height="26" rx="4" fill="#0d1117"/>
+  <circle cx="344" cy="127" r="10" fill="#1f6feb"/>
+  <text x="344" y="131" text-anchor="middle" fill="white" font-size="8" font-weight="700">SB</text>
+  <text x="364" y="131" fill="white" font-size="10">Sylvestre Banyo</text>
+  <text x="484" y="131" fill="#8b949e" font-size="10">08:02:14</text>
+  <rect x="578" y="117" width="62" height="18" rx="9" fill="#1a4d2e"/>
+  <text x="609" y="129" text-anchor="middle" fill="#3fb950" font-size="9" font-weight="600">✓ Présent</text>
+
+  <!-- Ligne 2 -->
+  <rect x="322" y="146" width="330" height="26" rx="4" fill="#0d1117"/>
+  <circle cx="344" cy="159" r="10" fill="#7c3aed"/>
+  <text x="344" y="163" text-anchor="middle" fill="white" font-size="8" font-weight="700">JA</text>
+  <text x="364" y="163" fill="white" font-size="10">Joseph Adolphe</text>
+  <text x="484" y="163" fill="#8b949e" font-size="10">08:15:33</text>
+  <rect x="578" y="149" width="62" height="18" rx="9" fill="#1a4d2e"/>
+  <text x="609" y="161" text-anchor="middle" fill="#3fb950" font-size="9" font-weight="600">✓ Présent</text>
+
+  <!-- Ligne 3 -->
+  <rect x="322" y="178" width="330" height="26" rx="4" fill="#0d1117"/>
+  <circle cx="344" cy="191" r="10" fill="#be185d"/>
+  <text x="344" y="195" text-anchor="middle" fill="white" font-size="8" font-weight="700">MK</text>
+  <text x="364" y="191" fill="white" font-size="10">Marie Kamga</text>
+  <text x="484" y="191" fill="#8b949e" font-size="10">08:47:09</text>
+  <rect x="578" y="181" width="62" height="18" rx="9" fill="#1a4d2e"/>
+  <text x="609" y="193" text-anchor="middle" fill="#3fb950" font-size="9" font-weight="600">✓ Présent</text>
+
+  <!-- Ligne 4 — absent -->
+  <rect x="322" y="210" width="330" height="26" rx="4" fill="#0d1117"/>
+  <circle cx="344" cy="223" r="10" fill="#555"/>
+  <text x="344" y="227" text-anchor="middle" fill="white" font-size="8" font-weight="700">PF</text>
+  <text x="364" y="223" fill="#8b949e" font-size="10">Paul Fotso</text>
+  <text x="484" y="223" fill="#8b949e" font-size="10">— : — : —</text>
+  <rect x="578" y="213" width="62" height="18" rx="9" fill="#4d1a1a"/>
+  <text x="609" y="225" text-anchor="middle" fill="#f85149" font-size="9" font-weight="600">✗ Absent</text>
+
+  <!-- Stats -->
+  <rect x="322" y="246" width="155" height="32" rx="6" fill="#0d1117"/>
+  <text x="334" y="260" fill="#8b949e" font-size="9">Présents</text>
+  <text x="334" y="274" fill="#3fb950" font-size="16" font-weight="700">3 / 4</text>
+
+  <rect x="485" y="246" width="167" height="32" rx="6" fill="#0d1117"/>
+  <text x="497" y="260" fill="#8b949e" font-size="9">Taux de présence</text>
+  <text x="497" y="274" fill="#58a6ff" font-size="16" font-weight="700">75%</text>
+
+  <!-- Stack badges en bas -->
+  <rect x="20" y="340" width="640" height="30" rx="6" fill="#161b22"/>
+  <text x="36" y="358" fill="#8b949e" font-size="10">Stack :</text>
+  <rect x="88" y="347" width="54" height="16" rx="8" fill="#1e3a2b" stroke="#3fb950" stroke-width="0.5"/>
+  <text x="115" y="358" text-anchor="middle" fill="#3fb950" font-size="9">Python</text>
+  <rect x="152" y="347" width="56" height="16" rx="8" fill="#1e2a3b" stroke="#58a6ff" stroke-width="0.5"/>
+  <text x="180" y="358" text-anchor="middle" fill="#58a6ff" font-size="9">OpenCV</text>
+  <rect x="218" y="347" width="58" height="16" rx="8" fill="#2b1e3b" stroke="#a371f7" stroke-width="0.5"/>
+  <text x="247" y="358" text-anchor="middle" fill="#a371f7" font-size="9">face_recog</text>
+  <rect x="286" y="347" width="52" height="16" rx="8" fill="#2b2b1e" stroke="#d29922" stroke-width="0.5"/>
+  <text x="312" y="358" text-anchor="middle" fill="#d29922" font-size="9">SQLite</text>
+  <rect x="348" y="347" width="56" height="16" rx="8" fill="#3b1e1e" stroke="#f78166" stroke-width="0.5"/>
+  <text x="376" y="358" text-anchor="middle" fill="#f78166" font-size="9">Tkinter</text>
+  <text x="430" y="358" fill="#8b949e" font-size="9">Gain : 80% sur le temps de traitement</text>
+</svg>

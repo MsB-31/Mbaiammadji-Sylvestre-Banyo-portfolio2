@@ -1,0 +1,78 @@
+{
+  "name": "Mbaiammadji Sylvestre Banyo",
+  "title": "Élève Ingénieur en Génie Logiciel & Data Science",
+  "location": "Douala, Cameroun",
+  "email": "msylbanyo@gmail.com",
+  "github": "github.com/MsB-31",
+  "linkedin": "linkedin.com/in/mbaiammadji-sylvestre-banyo",
+  "website": "www.SylvestreBanyo.com",
+  "phone": "+237 695 970 342",
+  "availability": "Disponible immédiatement pour un stage académique",
+  "education": [
+    "Master 1 en Génie Informatique et Télécommunications, spécialité Génie Logiciel — ENSP Douala (2025-2026)",
+    "Licence en Génie Informatique et Télécommunications, spécialité Génie Logiciel — ENSP Douala (2024-2025), Mention Assez Bien",
+    "DUT en Génie Informatique — IUT Douala (2022-2024), Mention Assez Bien",
+    "Baccalauréat Série D — Lycée-Collège le Bon Berger (2018-2019), Mention Assez Bien"
+  ],
+  "objective": "Intégrer une équipe Data ou Systèmes d'Information pour mettre en pratique mes compétences en analyse de données, développement Python et conception de solutions numériques. Préparer un Master 2 et une thèse en Data Science.",
+  "skills": {
+    "languages": ["Python (niveau avancé)", "JavaScript", "PHP", "Java", "HTML/CSS", "Rust (notions)"],
+    "data_science": ["Pandas", "NumPy", "Matplotlib", "Scikit-learn", "OpenCV", "SQL", "Power BI", "Machine Learning", "Visualisation de données"],
+    "web": ["React", "Laravel", "Node.js", "API REST", "Tailwind CSS", "ShadCN/UI"],
+    "mobile": ["Flutter", "React Native"],
+    "tools": ["Git/GitHub", "Docker", "Postman", "Agile/Scrum", "UML", "Merise", "SQLite", "Scapy"]
+  },
+  "services": [
+    "Data Science & Machine Learning : analyse de données, modèles prédictifs, pipelines ML, dashboards Power BI",
+    "Développement Web : applications dynamiques, authentification, tableaux de bord, intégration API — React, Laravel, PHP",
+    "Développement Mobile : applications Android avec Flutter et React Native",
+    "Conception & Développement Logiciel : architecture applicative, modélisation BDD, création d'API, automatisation"
+  ],
+  "experience": [
+    {
+      "title": "Stagiaire Développeur Python — Data & Vision",
+      "company": "Adjour Technologie, Douala",
+      "period": "2022-2024",
+      "tasks": [
+        "Conception d'un système de pointage par reconnaissance faciale (Python, OpenCV)",
+        "Automatisation du suivi de présence avec SQLite",
+        "Gain de 80% sur le temps de traitement des images",
+        "Rédaction de documentation technique"
+      ]
+    },
+    {
+      "title": "Stagiaire Développeur Python — Réseau & Données",
+      "company": "Laboratoire ENSP, Douala",
+      "period": "2024-2025",
+      "tasks": [
+        "Développement d'une application de tracking et cartographie d'appareils réseau",
+        "Collecte et analyse de données réseau : scan IP/MAC",
+        "Implémentation avec Python, Scapy et Socket",
+        "Visualisation des données sous forme de tableaux de bord"
+      ]
+    }
+  ],
+  "projects": [
+    "Plateforme collaborative de gestion de projets (Laravel 11, React 18/TypeScript, ShadCN/UI, Tailwind CSS)",
+    "CamLog : démon de journalisation centralisé en Rust pur (TCP, stdin, fichiers → SQLite)",
+    "Plateforme web de télémédecine (React, PHP Laravel)",
+    "Dashboard d'analyse prédictive Data Science (Python, Pandas, Scikit-learn, Power BI)",
+    "Application de tracking et cartographie réseau (Python, Scapy, SQLite)",
+    "Système de pointage par reconnaissance faciale (Python, OpenCV, SQLite)"
+  ],
+  "certifications": [
+    "IBM Introduction to Data Science — edX/IBM (2026)",
+    "Professional Certificate in Agile Project Management — University of Maryland (2025)",
+    "Applied Scrum for Agile Project Management — USMx/Maryland (2025)",
+    "Sprint Planning for Faster Agile Team Delivery — USMx/Maryland (2025)",
+    "Agile Innovation and Problem Solving Skills — USMx/Maryland (2025)",
+    "Agile Leadership Principles and Practices — USMx/Maryland (2025)",
+    "Agile Process, Project, and Program Controls — USMx/Maryland (2025)",
+    "Exercising Leadership Foundational Principles — HarvardX (2025)",
+    "Fundamentals of Digital Marketing — Google (2025)",
+    "NASA Open Science 101 — NASA (2025)"
+  ],
+  "languages_spoken": ["Français (langue maternelle)", "Anglais (intermédiaire — lecture technique et communication)"],
+  "qualities": ["Esprit analytique", "Résolution de problèmes", "Autonomie et rigueur", "Travail en équipe", "Adaptabilité", "Curiosité intellectuelle"],
+  "preferences": { "responseStyle": "concise", "language": "fr" }
+}
